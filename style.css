@@ -1,0 +1,132 @@
+body {
+  font-family: "Segoe UI";
+  background-color: #dfd5b4;
+  text-align: justify;
+  color: #24221a;
+}
+
+div {
+  padding: 5px;
+}
+
+.theHeader {
+  display: flex;
+  background-color: #dfd5b4;
+  flex-basis: 15%;
+  justify-content: center;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainMenu {
+  display: flex;
+  flex-basis: 80%;
+}
+
+.main {
+  flex-basis: 80%;
+  margin: 0px 50px 0px 50px;
+}
+
+.indexPic {
+  display: flex;
+  justify-content: center;
+}
+
+.mainStory {
+  display: flex;
+  flex-basis: 80%;
+  margin: 0px 50px 0px 50px;
+}
+
+.text {
+  flex: 3;
+  margin: 5px;
+}
+
+.pic {
+  flex: 2;
+  align-items: center;
+  margin: 5px;
+}
+
+.mainLocation {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px 0px 50px;
+  flex-basis: 80%;
+}
+
+.mapouter {
+  margin: 30px;
+}
+
+.mainPastries {
+  flex-basis: 80%;
+  margin: 0px 50px 0px 50px;
+}
+
+.mainCakes {
+  flex-basis: 80%;
+  margin: 0px 50px 0px 50px;
+}
+
+.menu {
+  flex: 1;
+  height: 100%;
+  background-color: #c8bea0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menu a:hover {
+  color: #f1f1f1;
+}
+
+.menu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #24221a;
+  display: block;
+}
+
+.container1 {
+  display: flex;
+}
+
+.container2 {
+  display: flex;
+}
+
+.container3 {
+  display: flex;
+}
+
+.theFooter {
+  display: flex;
+  background-color: #dfd5b4;
+  flex-basis: 50%;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #87814b;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  text-decoration: none;
+  font-size: 37px;
+}
+
+.my-float {
+  margin-top: 22px;
+}
